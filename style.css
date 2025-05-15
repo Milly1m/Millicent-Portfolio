@@ -1,0 +1,35 @@
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgb(192, 244, 244);
+color: #333;
+margin: 0;
+padding: 0;
+}
+header{
+    background-color: rgb(79, 138, 138);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+
+}
+section{
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,113);
+}
+.about{
+    padding: 20px;
+
+}
+h2{
+    color:rgb(79,138,138);
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(79, 138, 138);
+    color: aliceblue;
+}
