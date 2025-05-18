@@ -18,18 +18,104 @@ section{
     max-width: 600px;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,113);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.113);
 }
 .about{
     padding: 20px;
 
 }
 h2{
-    color:rgb(79,138,138);
+    color:rgb(79, 138, 138);
 }
 footer{
     text-align: center;
     padding: 10px;
     background-color:rgb(79, 138, 138);
     color: aliceblue;
+}
+.Project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Project-card{
+    background-color:rgb(79, 138, 138);
+    border-left: 4px solid rgb(8, 50, 50); 
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.113);
+    transition: transform 0.2s;
+}
+.Project-card:hover{
+    transform: translateY(-5px);
+
+}
+.Project-card > h3{
+    margin-top: 0;
+    color:rgb(13, 44, 44);
+}
+
+.Project-card > p{
+    font-size: 14px;
+    color: #444;
+}
+
+.Project-card > a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color:rgb(8, 124, 124); ;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.Project-card > a:hover{
+    background-color:rgb(13, 44, 44); ;
+
+}
+.social-links{
+    margin-top: 10px;
+}
+.social-links > a{
+    margin: 0 10px;
+    color: rgb(229, 244, 244);
+    text-decoration: none;
+    font-weight: bold;
+}  
+.social-links > a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color: black;
+}
+nav{
+    background-color: rgb(202, 223, 223);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}.navbar{
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+    gap: 20px;
+}
+.navbar li > a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+.navbar > li > a:hover{
+    background-color: aqua;
+
 }
